@@ -1,0 +1,14 @@
+# ---- 本地工作数据（不纳入版本库）----
+.workbuddy-ai/
+
+# ---- 系统 / IDE ----
+.DS_Store
+*.iml
+.idea/
+.vscode/
+
+# ---- 构建产物（各子模块目录下另有自己的 .gitignore，这里兜底）----
+target/
+dist/
+node_modules/
+log/
